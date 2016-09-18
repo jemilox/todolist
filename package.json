@@ -1,5 +1,5 @@
 {
-  "name": "pi_node_again",
+  "name": "todolist",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "express": "^4.14.0"
-  }
+    "express": "^4.14.0",
+    "pg": "^6.1.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jemilox/todolist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jemilox/todolist/issues"
+  },
+  "homepage": "https://github.com/jemilox/todolist#readme"
 }
