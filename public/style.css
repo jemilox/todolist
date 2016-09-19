@@ -1,0 +1,44 @@
+.notepad {
+  background-image: url('yellow_lined_paper.png');
+  height: 80vh;
+  width: 40vw;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  font-size: em;
+}
+
+.addToDo {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.currentToDoList, .finishedToDoList, .addToDo {
+  margin-left: 8vw;
+
+}
+
+button {
+  background-color: white;
+  font-family: 'Permanent Marker', cursive;
+  border: none;
+}
+
+input {
+  border: none;
+  font-family: 'Permanent Marker', cursive;
+  margin: 10px;
+}
+
+#delete {
+  background-color: red;
+}
